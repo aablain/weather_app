@@ -25,12 +25,14 @@ svg {
   height: 120px;
 }
 
+// This is for sizing Google Map with each city
 td:first-of-type, td:first-of-type > div {
   height: 200px;
   width: 250px;
 }
 
 
+// These two section look complicated, but are just making a hover effect for each graph
 tbody tr td {
   & div div {
     transition: transform 300ms ease-in-out;
